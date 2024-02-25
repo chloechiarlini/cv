@@ -1,13 +1,10 @@
 <script>
-  import Header from "./Header.svelte";
-  import "./output.css";
+  import "../app.css";
 </script>
 
-<div class="bg-red-400">
-  <p>test</p>
-  <main>
+<div>
+  <main class="p-2 m-16 flex flex-col gap-8 min-h-dvh">
     <slot />
   </main>
-
   <footer></footer>
 </div>
